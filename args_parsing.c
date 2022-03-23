@@ -43,7 +43,7 @@ static int	read_arg_precision(char **str)
 
 	precision = ft_atoi(*str);
 	if (precision < 0)
-			precision = 0;
+		precision = 0;
 	if (**str == '+' || **str == '-')
 		(*str)++;
 	while (**str && ft_isdigit(**str))
